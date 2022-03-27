@@ -10,6 +10,7 @@ sudo apt install flex bison
 # Compile and install it:
 
 git clone https://github.com/intel/backport-iwlwifi.git
+
 cd iwlwifi-stack-dev
 sudo make defconfig-iwlwifi-public
 sudo make 
